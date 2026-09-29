@@ -1,7 +1,15 @@
 <?php
+// Cargamos las variables de entorno
+$env = include __DIR__ . '/../env.php';
+
+// Si la página no definió un título específico, usamos el del env
 if (!isset($pageTitle)) {
-    $pageTitle = "Catálogo de Tiendas de Ropa Deportiva y Urbana";
+    $pageTitle = $env['app_title_default'];
+} else {
+    // Si la página definió un título, le podemos concatenar el nombre del sitio definido en el env
+    $pageTitle = $pageTitle . " - " . $env['app_name'];
 }
+
 if (!isset($pageDescription)) {
     $pageDescription = "Explorá el catálogo de tiendas de ropa urbana y deportiva más populares.";
 }
@@ -13,8 +21,6 @@ if (!isset($pageDescription)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
     <meta name="description" content="<?php echo $pageDescription; ?>">
-    
-    <!-- CSS DISTRIBUIDO EN EL HEADER (TAL CUAL PIDIÓ EL PROFE) -->
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>

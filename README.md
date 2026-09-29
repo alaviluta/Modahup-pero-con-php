@@ -30,7 +30,6 @@ Para clonar y poner en marcha este proyecto en tu entorno local:
 ---
 
 ## 📸 Evidencia de Funcionamiento
-
 ### 1. Servidor Local Ejecutándose
 *Vista previa del sitio web corriendo de forma local en el navegador bajo el entorno de XAMPP:*
 ![Servidor Local](imagenes/captura.png)

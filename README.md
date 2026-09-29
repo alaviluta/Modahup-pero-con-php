@@ -35,12 +35,12 @@ Para clonar y poner en marcha este proyecto en tu entorno local:
 ![Servidor Local](imagenes/captura.png)
 ### 2. Estructura Modular (SSI)
 *Vista del código fuente y organización de carpetas donde se aprecia la separación en plantillas (`header.php`, `footer.php`) y su inclusión mediante PHP:*
-![Estructura Modular SSI](imagenes/captura.png)
+![Estructura Modular SSI](imagenes/ssi.png)
 
 ### 3. Navegación Dinámica y SSR
 *Demostración del título dinámico en la pestaña del navegador combinando las variables del entorno con cada vista:*
-![Navegación Dinámica SSR](imagenes/captura.png)
+![Navegación Dinámica SSR](imagenes/Navegación-Dinámica.png)
 
 ### 4. Configuración de Variables de Entorno
 *Evidencia del archivo `.env.example` presente en la raíz del repositorio:*
-![Variables de Entorno](imagenes/captura.png)
+![Variables de Entorno](imagenes/env.png)

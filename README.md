@@ -34,5 +34,5 @@ Para clonar y poner en marcha este proyecto en tu entorno local:
 ### 1. Servidor Local Ejecutándose
 *Vista previa del sitio web corriendo de forma local en el navegador bajo el entorno de XAMPP:*
 ```text
-<img width="2125" height="845" alt="image" src="https://github.com/user-attachments/assets/f7e34bf8-781f-4ddd-973f-f67a5f1fa22a" />
+imagenes/captura.png
 

@@ -5,7 +5,7 @@ Aplicación web modularizada desarrollada para la gestión y visualización de c
 ---
 
 ## 🎨 Enlace al Prototipo (Figma)
-* **Diseño original UI/UX:** [Ver prototipo en Figma](https://www.figma.com)
+* **Diseño original UI/UX:** [Ver prototipo en Figma](https://www.figma.com/design/yhwdbeoqApCoIEwYfxAJXX/Sin-t%C3%ADtulo?node-id=3-17&t=XJZbYbaPcR1jmXXs-1)
 
 ---
 

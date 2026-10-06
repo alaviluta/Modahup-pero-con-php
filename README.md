@@ -107,4 +107,4 @@ Todo el desarrollo de esta entrega se encuentra en la carpeta [`clase5/`](clase5
 
 ### 5. Prevención de XSS
 *Un intento de inyección de script se muestra como texto y no se ejecuta:*
-![XSS escapado](clase5/capturas/xss-escapado.png)
+![XSS escapado](imagenes/xss-escapado.png)

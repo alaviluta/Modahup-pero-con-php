@@ -103,7 +103,7 @@ Todo el desarrollo de esta entrega se encuentra en la carpeta [`clase5/`](clase5
 
 ### 4. Formulario GET – Error de validación
 *Mensaje en pantalla cuando se envía la búsqueda sin criterios válidos:*
-![Búsqueda con error](clase5/capturas/buscar-error.png)
+![Búsqueda con error](imagenes/buscar-error.png)
 
 ### 5. Prevención de XSS
 *Un intento de inyección de script se muestra como texto y no se ejecuta:*

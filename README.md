@@ -44,6 +44,9 @@ Para clonar y poner en marcha este proyecto en tu entorno local:
 ### 4. Configuración de Variables de Entorno
 *Evidencia del archivo `.env.example` presente en la raíz del repositorio:*
 ![Variables de Entorno](imagenes/env.png)
+
+---
+
 # 📝 Clase 5 – Procesamiento de Formularios (POST y GET) y Prevención de XSS
 
 Todo el desarrollo de esta entrega se encuentra en la carpeta [`clase5/`](clase5/) (`contacto.php`, `buscar.php`, `tiendas.php`, `mapa.php`). Además, `includes/header.php` se ajustó levemente para que el menú apunte a estas versiones. Se incorporó lógica del lado del servidor para capturar y procesar datos enviados desde el navegador, aplicando sanitización estricta para prevenir ataques de Cross-Site Scripting (XSS, OWASP Top 10).
@@ -88,20 +91,20 @@ Todo el desarrollo de esta entrega se encuentra en la carpeta [`clase5/`](clase5
 
 ### 1. Formulario POST con errores de validación y datos conservados
 *Campos vacíos o con formato inválido muestran mensajes de error, y lo ya escrito se mantiene:*
-![Contacto con errores](imagenes/contacto-error.png)
+![Contacto con errores](clase5/capturas/contacto-error.png)
 
 ### 2. Formulario POST – Envío exitoso
 *Mensaje de confirmación tras procesar correctamente los datos:*
-![Contacto exitoso](imagenes/contacto-exito.png)
+![Contacto exitoso](clase5/capturas/contacto-exito.png)
 
 ### 3. Formulario GET – Búsqueda con resultados
 *Resultados filtrados según el término y la categoría; los parámetros se observan en la URL:*
-![Búsqueda con resultados](imagenes/buscar-resultados.png)
+![Búsqueda con resultados](clase5/capturas/buscar-resultados.png)
 
 ### 4. Formulario GET – Error de validación
 *Mensaje en pantalla cuando se envía la búsqueda sin criterios válidos:*
-![Búsqueda con error](imagenes/buscar-error.png)
+![Búsqueda con error](clase5/capturas/buscar-error.png)
 
 ### 5. Prevención de XSS
 *Un intento de inyección de script se muestra como texto y no se ejecuta:*
-![XSS escapado](imagenes/xss-escapado.png)
+![XSS escapado](clase5/capturas/xss-escapado.png)

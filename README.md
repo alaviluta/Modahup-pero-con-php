@@ -91,7 +91,7 @@ Todo el desarrollo de esta entrega se encuentra en la carpeta [`clase5/`](clase5
 
 ### 1. Formulario POST con errores de validación y datos conservados
 *Campos vacíos o con formato inválido muestran mensajes de error, y lo ya escrito se mantiene:*
-![Contacto con errores](clase5/capturas/contacto-error.png)
+![Contacto con errores](imagenes/contacto-error.png)
 
 ### 2. Formulario POST – Envío exitoso
 *Mensaje de confirmación tras procesar correctamente los datos:*

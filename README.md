@@ -99,7 +99,7 @@ Todo el desarrollo de esta entrega se encuentra en la carpeta [`clase5/`](clase5
 
 ### 3. Formulario GET – Búsqueda con resultados
 *Resultados filtrados según el término y la categoría; los parámetros se observan en la URL:*
-![Búsqueda con resultados](clase5/capturas/buscar-resultados.png)
+![Búsqueda con resultados](imagenes/buscar-resultados.png)
 
 ### 4. Formulario GET – Error de validación
 *Mensaje en pantalla cuando se envía la búsqueda sin criterios válidos:*
